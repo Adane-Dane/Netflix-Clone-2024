@@ -1,7 +1,7 @@
 .banner{
-    margin-top: 10vh;
+    margin-top: -10vh;
     height: 80vh;
-    margin-bottom: -80px;
+    margin-bottom: 80px;
     color: white;
     stroke: #000;
     object-fit: contain;
@@ -9,7 +9,7 @@
 .banner_contents{
     margin-top: 30px;
     padding-top: 300px;
-    /* height: 190px; */
+    height: 190px;
 }
 .banner_title {
     font-size: 3rem;
