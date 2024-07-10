@@ -7,7 +7,7 @@ const RowList = () => {
     <>
       <Row
         title="NETFLIX ORIGINALS"
-        fetchUrl={requests.fetchNetflixoriginals}
+        fetchUrl={requests.fetchNetflixorginals}
         isLargeRow={true}
       />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
