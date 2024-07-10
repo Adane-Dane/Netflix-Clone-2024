@@ -5,9 +5,9 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(20,20,20);
-    background-color: transparent;
+    /* background-color: transparent; */
     height: 10vh;
-    columns: white;
+    color: white;
     transition: all 0.5s;
     transition-timing-function: ease-in;
     z-index: 1;
@@ -24,6 +24,15 @@
     /* background-color: yellow; */
 }
 .header_left ul{
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    /* color: white; */
+}
+.header_right ul{
     width: 140%;
     display: flex;
     justify-content: space-between;
