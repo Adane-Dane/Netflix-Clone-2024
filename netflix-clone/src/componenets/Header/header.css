@@ -26,4 +26,9 @@
 .header_left ul{
     width: 140%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    /* color: white; */
 }
